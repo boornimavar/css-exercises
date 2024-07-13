@@ -8,14 +8,17 @@ body {
   border: 3px solid blue;
   /* CHANGE ME */
   padding: 0px;
-  margin: 0px;
+  width: 80%;
+  margin: 10px;
+
 }
 
 .two {
+  width: 100%;
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 40px;
 }
 
 .three {
@@ -24,5 +27,16 @@ body {
   width: 200px;
   /* CHANGE ME */
   padding: 0px;
-  margin-left: 0px;
+  margin-left: 350px;
+  
+}
+.container{
+  margin-top:10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .box{
+  padding:30px;
 }
